@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DexAI Assistant</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 260px;
+        padding: 12px;
+      }
+      h3 {
+        text-align: center;
+        color: #333;
+      }
+      textarea {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        padding: 6px;
+      }
+      button {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 8px;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      #summarize {
+        background-color: #0066ff;
+      }
+      #autofill {
+        background-color: #00b36b;
+      }
+      button:hover {
+        opacity: 0.9;
+      }
+      #result {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #444;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>DexAI Assistant</h3>
+    <textarea id="inputText" placeholder="Select text on page or paste here..."></textarea>
+    <button id="summarize">Summarize</button>
+    <button id="autofill">Autofill Form</button>
+    <div id="result"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
