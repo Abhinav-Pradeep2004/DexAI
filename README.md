@@ -14,7 +14,7 @@
 
 
 ## Chrome extension
-1. Open Chrome → Extensions → Load unpacked
+1. Open Chrome → Extensions → Load unpacked (Turn on your developers option)
 2. Select the `extension/` folder from repo
 3. Open any page, select text, click the extension icon, and click Summarize or Make Simple Plan
 
